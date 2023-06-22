@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #3c3c3c;
+    width: 960px;
+    margin: auto;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    header a{
+        text-decoration: none; /* quitar subrayado */
+        color: #3c3c3c;
+        font-size: 20px;
+    }
+
+    header a img{
+        vertical-align: middle;
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    header nav a{
+        margin: 8px;
+    }
