@@ -29,3 +29,56 @@ header{
     header nav a{
         margin: 8px;
     }
+
+/* hero banner */
+#hero-banner{
+    height: 450px;
+    background-image: url(../imgs/playa.jpg);
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    align-items: center;
+}
+    #hero-banner h1{
+        font-size: 32px;
+        font-weight: normal;
+        color: #fff;
+        margin-left: 132px;
+        width: 274px;
+    }
+
+/* sección promos */
+
+#promos{
+    height: 400px;
+    margin-top: 52px;
+    background-color: #FAF0E9;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+    #promos article{
+        width: 256px;
+        /* background-color: #ffffff; */
+    }
+        #promos a{
+            text-decoration: none;
+            color: #3c3c3c;
+            transition: .5s;
+        }
+        #promos a:hover{
+            color: #D26137;
+            background-color: #fff;
+            box-shadow: 0 0 12px #c1a48f;
+        }
+
+        #promos article h2{
+            font-size: 400;
+            font-size: 16px;
+            margin: 12px;
+        }
+        #promos article p{
+            font-weight: 300;
+            margin: 12px;
+        }
