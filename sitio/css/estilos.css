@@ -82,3 +82,67 @@ header{
             font-weight: 300;
             margin: 12px;
         }
+
+/* sección servicios */
+#servicios{
+    width: 680px;
+    margin: 52px auto 0px auto;
+
+    display: flex;
+    flex-wrap: wrap; /* respeta los anchos */
+    column-gap: 96px;
+    row-gap: 32px;
+}
+    #servicios h2{
+        width: 100%;
+        text-align: center;
+        font-weight: 400;
+    }
+
+    #servicios a{
+        text-decoration: none;
+        color: #3c3c3c;
+        width: 160px;
+        height: 140px;
+        display: block; /* convertimos a elemento de bloque 
+                            para que acepte ancho y altura */
+        border: 1px solid #3c3c3c;
+        border-radius: 12px;
+        text-align: center;
+        transition: 500ms;
+    }
+    #servicios a:hover{
+        color: #fff;
+        background-color: #3c3c3c;
+    }
+
+        .fa-solid, .fa-brands{
+            font-size: 56px;
+            margin: 20px 52px 20px 52px;
+        }
+
+/* footer */
+footer{
+    height: 160px;
+    margin-top: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3c3c3c;
+}
+    footer a{
+        color: #fff;
+        text-decoration: none;
+    }
+        footer a img{
+            vertical-align: middle;   
+            margin: 0px 8px 0px 12px;         
+        }
+
+        footer div{
+            margin-right: 12px;
+        }
+        footer .fa-brands{
+            font-size: 24px;
+            margin: 0px 8px 0px 8px;
+        }
